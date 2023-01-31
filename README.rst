@@ -1,4 +1,4 @@
-plasio
+SciCrop Plasio
 -------------------------------------------------------------------------------
 
 plasio is a project by `Uday Verma`_ and `Howard Butler`_ that implements point
@@ -15,7 +15,7 @@ able to support plasio, and it contains nothing that is explicitly Chrome-specif
 Demo
 ...............................................................................
 
-http://plas.io contains a demo of the interface and supports both LAS and LAZ.
+https://scicrop.com/lidar contains a demo of the interface and supports both LAS and LAZ.
 
 FAQ
 ...............................................................................
@@ -49,10 +49,11 @@ To setup the development environment, you can run::
 This will download all dependencies required to setup the build system.
     
 You can then build and stage files under the ``build`` directory by running::
+    ```
     mkdir build
     cd build
     gulp
-    
+    ```
 While developing, you may run::
     
     gulp develop
