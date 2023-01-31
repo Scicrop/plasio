@@ -49,11 +49,11 @@ To setup the development environment, you can run::
 This will download all dependencies required to setup the build system.
     
 You can then build and stage files under the ``build`` directory by running::
-    ```
+    ``
     mkdir build
     cd build
     gulp
-    ```
+    ``
 While developing, you may run::
     
     gulp develop
